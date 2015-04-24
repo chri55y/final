@@ -1,0 +1,20 @@
+Drink_Type:
+  name: string
+  description: text
+
+Recipe:
+  drink_type_id: integer
+  name: string
+  num_servings: float
+  instructions: text
+
+Component:
+  name: string
+  alcoholic: boolean
+  notes: text
+
+Ingredient:
+  recipe_id: integer
+  component_id: integer
+  amount: float
+  unit: string
